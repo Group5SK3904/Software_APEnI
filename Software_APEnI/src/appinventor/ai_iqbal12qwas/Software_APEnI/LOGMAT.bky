@@ -1,0 +1,377 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="1" x="29" y="10">
+    <mutation component_type="Button" instance_name="Button1" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button1</field>
+    <statement name="DO">
+      <block type="component_set_get" id="2" inline="false">
+        <mutation component_type="ActivityStarter" set_or_get="set" property_name="DataUri" is_generic="false" instance_name="ActivityStarter1"></mutation>
+        <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+        <field name="PROP">DataUri</field>
+        <value name="VALUE">
+          <block type="text" id="3">
+            <field name="TEXT">https://drive.google.com/open?id=0B3EqLzxtoBu0T0sydEd2V2JLY3M</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="4" inline="false">
+            <mutation component_type="ActivityStarter" set_or_get="set" property_name="Action" is_generic="false" instance_name="ActivityStarter1"></mutation>
+            <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+            <field name="PROP">Action</field>
+            <value name="VALUE">
+              <block type="text" id="5">
+                <field name="TEXT">android.intent.action.VIEW</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="6">
+                <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="ActivityStarter1"></mutation>
+                <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="7" x="920" y="16">
+    <mutation component_type="Button" instance_name="Button6" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button6</field>
+    <statement name="DO">
+      <block type="component_set_get" id="8" inline="false">
+        <mutation component_type="ActivityStarter" set_or_get="set" property_name="DataUri" is_generic="false" instance_name="ActivityStarter1"></mutation>
+        <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+        <field name="PROP">DataUri</field>
+        <value name="VALUE">
+          <block type="text" id="9">
+            <field name="TEXT">https://drive.google.com/open?id=0B3EqLzxtoBu0MUg1ZHBfcHktZ2c</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="10" inline="false">
+            <mutation component_type="ActivityStarter" set_or_get="set" property_name="Action" is_generic="false" instance_name="ActivityStarter1"></mutation>
+            <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+            <field name="PROP">Action</field>
+            <value name="VALUE">
+              <block type="text" id="11">
+                <field name="TEXT">android.intent.action.VIEW</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="12">
+                <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="ActivityStarter1"></mutation>
+                <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="13" x="27" y="150">
+    <mutation component_type="Button" instance_name="Button2" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button2</field>
+    <statement name="DO">
+      <block type="component_set_get" id="14" inline="false">
+        <mutation component_type="ActivityStarter" set_or_get="set" property_name="DataUri" is_generic="false" instance_name="ActivityStarter1"></mutation>
+        <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+        <field name="PROP">DataUri</field>
+        <value name="VALUE">
+          <block type="text" id="15">
+            <field name="TEXT">https://drive.google.com/open?id=0B3EqLzxtoBu0Zk10UnBoNmFRa2c</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="16" inline="false">
+            <mutation component_type="ActivityStarter" set_or_get="set" property_name="Action" is_generic="false" instance_name="ActivityStarter1"></mutation>
+            <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+            <field name="PROP">Action</field>
+            <value name="VALUE">
+              <block type="text" id="17">
+                <field name="TEXT">android.intent.action.VIEW</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="18">
+                <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="ActivityStarter1"></mutation>
+                <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="19" x="927" y="159">
+    <mutation component_type="Button" instance_name="Button7" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button7</field>
+    <statement name="DO">
+      <block type="component_set_get" id="20" inline="false">
+        <mutation component_type="ActivityStarter" set_or_get="set" property_name="DataUri" is_generic="false" instance_name="ActivityStarter1"></mutation>
+        <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+        <field name="PROP">DataUri</field>
+        <value name="VALUE">
+          <block type="text" id="21">
+            <field name="TEXT">https://drive.google.com/open?id=0B3EqLzxtoBu0VW92NGRKTjNkT2s</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="22" inline="false">
+            <mutation component_type="ActivityStarter" set_or_get="set" property_name="Action" is_generic="false" instance_name="ActivityStarter1"></mutation>
+            <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+            <field name="PROP">Action</field>
+            <value name="VALUE">
+              <block type="text" id="23">
+                <field name="TEXT">android.intent.action.VIEW</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="24">
+                <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="ActivityStarter1"></mutation>
+                <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="25" x="28" y="287">
+    <mutation component_type="Button" instance_name="Button3" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button3</field>
+    <statement name="DO">
+      <block type="component_set_get" id="26" inline="false">
+        <mutation component_type="ActivityStarter" set_or_get="set" property_name="DataUri" is_generic="false" instance_name="ActivityStarter1"></mutation>
+        <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+        <field name="PROP">DataUri</field>
+        <value name="VALUE">
+          <block type="text" id="27">
+            <field name="TEXT">https://drive.google.com/open?id=0B3EqLzxtoBu0ZEhLYWRWc1oxcjQ</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="28" inline="false">
+            <mutation component_type="ActivityStarter" set_or_get="set" property_name="Action" is_generic="false" instance_name="ActivityStarter1"></mutation>
+            <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+            <field name="PROP">Action</field>
+            <value name="VALUE">
+              <block type="text" id="29">
+                <field name="TEXT">android.intent.action.VIEW</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="30">
+                <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="ActivityStarter1"></mutation>
+                <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="31" x="931" y="295">
+    <mutation component_type="Button" instance_name="Button8" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button8</field>
+    <statement name="DO">
+      <block type="component_set_get" id="32" inline="false">
+        <mutation component_type="ActivityStarter" set_or_get="set" property_name="DataUri" is_generic="false" instance_name="ActivityStarter1"></mutation>
+        <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+        <field name="PROP">DataUri</field>
+        <value name="VALUE">
+          <block type="text" id="33">
+            <field name="TEXT">https://drive.google.com/open?id=0B3EqLzxtoBu0SzVZYm9lVTBOdUE</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="34" inline="false">
+            <mutation component_type="ActivityStarter" set_or_get="set" property_name="Action" is_generic="false" instance_name="ActivityStarter1"></mutation>
+            <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+            <field name="PROP">Action</field>
+            <value name="VALUE">
+              <block type="text" id="35">
+                <field name="TEXT">android.intent.action.VIEW</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="36">
+                <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="ActivityStarter1"></mutation>
+                <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="37" x="30" y="428">
+    <mutation component_type="Button" instance_name="Button4" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button4</field>
+    <statement name="DO">
+      <block type="component_set_get" id="38" inline="false">
+        <mutation component_type="ActivityStarter" set_or_get="set" property_name="DataUri" is_generic="false" instance_name="ActivityStarter1"></mutation>
+        <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+        <field name="PROP">DataUri</field>
+        <value name="VALUE">
+          <block type="text" id="39">
+            <field name="TEXT">https://drive.google.com/open?id=0B3EqLzxtoBu0Z0FoTEoxcTdrVGs</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="40" inline="false">
+            <mutation component_type="ActivityStarter" set_or_get="set" property_name="Action" is_generic="false" instance_name="ActivityStarter1"></mutation>
+            <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+            <field name="PROP">Action</field>
+            <value name="VALUE">
+              <block type="text" id="41">
+                <field name="TEXT">android.intent.action.VIEW</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="42">
+                <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="ActivityStarter1"></mutation>
+                <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="43" x="931" y="437">
+    <mutation component_type="Button" instance_name="Button9" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button9</field>
+    <statement name="DO">
+      <block type="component_set_get" id="44" inline="false">
+        <mutation component_type="ActivityStarter" set_or_get="set" property_name="DataUri" is_generic="false" instance_name="ActivityStarter1"></mutation>
+        <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+        <field name="PROP">DataUri</field>
+        <value name="VALUE">
+          <block type="text" id="45">
+            <field name="TEXT">https://drive.google.com/open?id=0B3EqLzxtoBu0YjZ6LWRhRTVaRHM</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="46" inline="false">
+            <mutation component_type="ActivityStarter" set_or_get="set" property_name="Action" is_generic="false" instance_name="ActivityStarter1"></mutation>
+            <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+            <field name="PROP">Action</field>
+            <value name="VALUE">
+              <block type="text" id="47">
+                <field name="TEXT">android.intent.action.VIEW</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="48">
+                <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="ActivityStarter1"></mutation>
+                <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="49" x="33" y="563">
+    <mutation component_type="Button" instance_name="Button5" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button5</field>
+    <statement name="DO">
+      <block type="component_set_get" id="50" inline="false">
+        <mutation component_type="ActivityStarter" set_or_get="set" property_name="DataUri" is_generic="false" instance_name="ActivityStarter1"></mutation>
+        <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+        <field name="PROP">DataUri</field>
+        <value name="VALUE">
+          <block type="text" id="51">
+            <field name="TEXT">https://drive.google.com/open?id=0B3EqLzxtoBu0TGo3aWJ2QzVPSkk</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="52" inline="false">
+            <mutation component_type="ActivityStarter" set_or_get="set" property_name="Action" is_generic="false" instance_name="ActivityStarter1"></mutation>
+            <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+            <field name="PROP">Action</field>
+            <value name="VALUE">
+              <block type="text" id="53">
+                <field name="TEXT">android.intent.action.VIEW</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="54">
+                <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="ActivityStarter1"></mutation>
+                <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="55" x="930" y="573">
+    <mutation component_type="Button" instance_name="Button10" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button10</field>
+    <statement name="DO">
+      <block type="component_set_get" id="56" inline="false">
+        <mutation component_type="ActivityStarter" set_or_get="set" property_name="DataUri" is_generic="false" instance_name="ActivityStarter1"></mutation>
+        <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+        <field name="PROP">DataUri</field>
+        <value name="VALUE">
+          <block type="text" id="57">
+            <field name="TEXT">https://drive.google.com/open?id=0B3EqLzxtoBu0QWdTSTB4QkNQUHc</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="58" inline="false">
+            <mutation component_type="ActivityStarter" set_or_get="set" property_name="Action" is_generic="false" instance_name="ActivityStarter1"></mutation>
+            <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+            <field name="PROP">Action</field>
+            <value name="VALUE">
+              <block type="text" id="59">
+                <field name="TEXT">android.intent.action.VIEW</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="60">
+                <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="ActivityStarter1"></mutation>
+                <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="61" x="928" y="711">
+    <mutation component_type="Button" instance_name="Button11" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button11</field>
+    <statement name="DO">
+      <block type="component_set_get" id="62" inline="false">
+        <mutation component_type="ActivityStarter" set_or_get="set" property_name="DataUri" is_generic="false" instance_name="ActivityStarter1"></mutation>
+        <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+        <field name="PROP">DataUri</field>
+        <value name="VALUE">
+          <block type="text" id="63">
+            <field name="TEXT">https://drive.google.com/open?id=0B3EqLzxtoBu0YmFkdW4xTEUyMjQ</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="64" inline="false">
+            <mutation component_type="ActivityStarter" set_or_get="set" property_name="Action" is_generic="false" instance_name="ActivityStarter1"></mutation>
+            <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+            <field name="PROP">Action</field>
+            <value name="VALUE">
+              <block type="text" id="65">
+                <field name="TEXT">android.intent.action.VIEW</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="66">
+                <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="ActivityStarter1"></mutation>
+                <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="159" language-version="20"></yacodeblocks>
+</xml>
